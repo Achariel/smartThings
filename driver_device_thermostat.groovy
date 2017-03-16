@@ -174,8 +174,7 @@ def poll() {
 			logout()
 		}else{
 			DeviceData()
-			runIn(300, poll)
-			logout()
+			runIn(200, poll)
 		}	
 	}
 }
